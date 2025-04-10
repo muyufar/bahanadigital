@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class CartPage extends StatefulWidget {
-  const CartPage({Key? key}) : super(key: key);
+  const CartPage({super.key});
 
   @override
   State<CartPage> createState() => _CartPageState();

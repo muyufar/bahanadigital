@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class TransactionPage extends StatelessWidget {
-  const TransactionPage({Key? key}) : super(key: key);
+  const TransactionPage({super.key});
 
   @override
   Widget build(BuildContext context) {

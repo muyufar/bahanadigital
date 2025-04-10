@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class BannerPrimaryPage extends StatelessWidget {
-  const BannerPrimaryPage({Key? key}) : super(key: key);
+  const BannerPrimaryPage({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class PromoPage extends StatelessWidget {
-  const PromoPage({Key? key}) : super(key: key);
+  const PromoPage({super.key});
 
   @override
   Widget build(BuildContext context) {

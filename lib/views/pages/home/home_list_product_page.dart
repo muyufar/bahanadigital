@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class AfterthoughtEbookProductPage extends StatelessWidget {
-  const AfterthoughtEbookProductPage({Key? key}) : super(key: key);
+  const AfterthoughtEbookProductPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class AfterthoughtEbookProductPage extends StatelessWidget {
 }
 
 class MagazineProductPage extends StatelessWidget {
-  const MagazineProductPage({Key? key}) : super(key: key);
+  const MagazineProductPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +55,7 @@ class MagazineProductPage extends StatelessWidget {
 }
 
 class HomeListNewEbookProductPage extends StatelessWidget {
-  const HomeListNewEbookProductPage({Key? key}) : super(key: key);
+  const HomeListNewEbookProductPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class HomeListNewEbookProductPage extends StatelessWidget {
 }
 
 class HomeListRentEbookProductPage extends StatelessWidget {
-  const HomeListRentEbookProductPage({Key? key}) : super(key: key);
+  const HomeListRentEbookProductPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -109,7 +109,7 @@ class HomeListRentEbookProductPage extends StatelessWidget {
 }
 
 class HomeListBuyEbookProductPage extends StatelessWidget {
-  const HomeListBuyEbookProductPage({Key? key}) : super(key: key);
+  const HomeListBuyEbookProductPage({super.key});
 
   @override
   Widget build(BuildContext context) {

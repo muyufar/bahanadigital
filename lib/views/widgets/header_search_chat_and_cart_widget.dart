@@ -5,7 +5,7 @@ part of 'widgets.dart';
 /// There is File searching, button Chat WhatsApp and button Cart.
 
 class HeaderSearchChatandCartWidgets extends StatefulWidget {
-  const HeaderSearchChatandCartWidgets({Key? key}) : super(key: key);
+  const HeaderSearchChatandCartWidgets({super.key});
 
   @override
   State<HeaderSearchChatandCartWidgets> createState() =>

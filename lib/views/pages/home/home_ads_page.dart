@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class AdsPrimary extends StatelessWidget {
-  const AdsPrimary({Key? key}) : super(key: key);
+  const AdsPrimary({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class AdsPrimary extends StatelessWidget {
 }
 
 class AdsSecond extends StatelessWidget {
-  const AdsSecond({Key? key}) : super(key: key);
+  const AdsSecond({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -2,7 +2,7 @@ part of '../pages.dart';
 
 class ProductDetailsPage extends StatefulWidget {
   final String idBook;
-  const ProductDetailsPage({required this.idBook, Key? key}) : super(key: key);
+  const ProductDetailsPage({required this.idBook, super.key});
 
   @override
   State<ProductDetailsPage> createState() => _ProductDetailsPageState();

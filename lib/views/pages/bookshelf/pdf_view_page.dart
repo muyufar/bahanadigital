@@ -2,7 +2,7 @@ part of '../pages.dart';
 
 class PDFViewPage extends StatefulWidget {
   final String urlPdf;
-  const PDFViewPage(this.urlPdf, {Key? key}) : super(key: key);
+  const PDFViewPage(this.urlPdf, {super.key});
 
   @override
   PDFViewPageState createState() => PDFViewPageState();

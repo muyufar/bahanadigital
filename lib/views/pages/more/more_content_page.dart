@@ -10,8 +10,7 @@ class MoreContentPage extends StatefulWidget {
       this.tagMore = false,
       required this.idCategory,
       this.searchTitle = '',
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   State<MoreContentPage> createState() => _MoreContentPageState();

@@ -26,8 +26,7 @@ class HeaderBackArrowSearchShareandCard extends StatelessWidget {
       required this.idCategory,
       this.titleProduct = '',
       this.linkProduct = '',
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   Widget build(BuildContext context) {

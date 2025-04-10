@@ -3,8 +3,7 @@ part of '../pages.dart';
 class AdsDetailPage extends StatelessWidget {
   final String tag;
   final String idAds;
-  const AdsDetailPage({required this.tag, required this.idAds, Key? key})
-      : super(key: key);
+  const AdsDetailPage({required this.tag, required this.idAds, super.key});
 
   @override
   Widget build(BuildContext context) {

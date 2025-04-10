@@ -15,8 +15,11 @@ class PagesBloc extends Bloc<PagesEvent, PagesState> {
         (event, emit) => emit(OnProductDetailsPage(idBook: event.idBook)));
     on<GoToSignInPage>((event, emit) => emit(OnSignInPage()));
     on<GoToSignUpPage>((event, emit) => emit(OnSignUpPage()));
+    on<GoToArtikelPage>((event, emit) => emit(onArtikelPage()));
     on<GoToCartPage>((event, emit) => emit(OnCartPage()));
     on<GoToBookshelfPage>((event, emit) => emit(OnBookshelfPage()));
+    on<GoToArtikelDetailPage>(
+        (event, emit) => emit(OnDetailArtikelPage(idArtikel: event.idArtikel)));
     on<GoToTransactionPage>((event, emit) => emit(OnTransactionPage()));
     on<GoToAdsDetailPage>((event, emit) =>
         emit(OnAdsDetailPage(idAds: event.idAds, tag: event.tag)));

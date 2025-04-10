@@ -12,8 +12,7 @@ class IconCategoryWidget extends StatelessWidget {
       required this.image,
       this.imagelocal = false,
       required this.onTap,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class TransactionEventPage extends StatefulWidget {
-  const TransactionEventPage({Key? key}) : super(key: key);
+  const TransactionEventPage({super.key});
 
   @override
   State<TransactionEventPage> createState() => _TransactionEventPageState();

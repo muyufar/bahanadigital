@@ -4,8 +4,7 @@ class AddPaymentPage extends StatefulWidget {
   final AddPaymentModel addPaymentModel;
   final bool isEvent;
   const AddPaymentPage(
-      {required this.addPaymentModel, this.isEvent = false, Key? key})
-      : super(key: key);
+      {required this.addPaymentModel, this.isEvent = false, super.key});
 
   @override
   State<AddPaymentPage> createState() => _AddPaymentPageState();

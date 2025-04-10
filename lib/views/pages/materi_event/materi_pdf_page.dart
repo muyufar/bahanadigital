@@ -2,7 +2,7 @@ part of '../pages.dart';
 
 class MateriPdfPage extends StatefulWidget {
   final String urlPdf;
-  const MateriPdfPage(this.urlPdf, {Key? key}) : super(key: key);
+  const MateriPdfPage(this.urlPdf, {super.key});
 
   @override
   State<MateriPdfPage> createState() => _MateriPdfPageState();

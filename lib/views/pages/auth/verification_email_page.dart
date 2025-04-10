@@ -3,8 +3,7 @@ part of '../pages.dart';
 class VerificationEmailPage extends StatefulWidget {
   final bool fromSingUp;
   final String? email;
-  const VerificationEmailPage({this.fromSingUp = false, this.email, Key? key})
-      : super(key: key);
+  const VerificationEmailPage({this.fromSingUp = false, this.email, super.key});
 
   @override
   State<VerificationEmailPage> createState() => _VerificationEmailPageState();

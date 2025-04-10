@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class LisrMateriEventPage extends StatelessWidget {
-  const LisrMateriEventPage({Key? key}) : super(key: key);
+  const LisrMateriEventPage({super.key});
 
   @override
   Widget build(BuildContext context) {

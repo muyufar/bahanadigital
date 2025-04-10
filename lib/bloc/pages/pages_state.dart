@@ -26,7 +26,10 @@ class OnSignUpPage extends PagesState {
   @override
   List<Object> get props => [];
 }
-
+class onArtikelPage extends PagesState {
+  @override
+  List<Object> get props => [];
+}
 class OnCartPage extends PagesState {
   @override
   List<Object> get props => [];
@@ -44,6 +47,13 @@ class OnEpubViewPage extends PagesState {
 class OnBookshelfPage extends PagesState {
   @override
   List<Object> get props => [];
+}
+
+class OnDetailArtikelPage extends PagesState {
+  final String idArtikel;
+  const OnDetailArtikelPage({required this.idArtikel});
+  @override
+  List<Object> get props => [idArtikel];
 }
 
 class OnAddPaymentPage extends PagesState {

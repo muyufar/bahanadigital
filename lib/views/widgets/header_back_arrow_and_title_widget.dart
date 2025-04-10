@@ -19,8 +19,7 @@ class HeaderBackArrowandTitlePage extends StatefulWidget {
       this.idBook = '',
       required this.onTap,
       this.backgroundTransparent = false,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   State<HeaderBackArrowandTitlePage> createState() =>

@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class BookshelfPage extends StatefulWidget {
-  const BookshelfPage({Key? key}) : super(key: key);
+  const BookshelfPage({super.key});
 
   @override
   State<BookshelfPage> createState() => _BookshelfPageState();
@@ -194,7 +194,7 @@ class HeaderClipper extends CustomClipper<Path> {
 }
 
 class BookShelfBuyPage extends StatefulWidget {
-  const BookShelfBuyPage({Key? key}) : super(key: key);
+  const BookShelfBuyPage({super.key});
 
   @override
   State<BookShelfBuyPage> createState() => _BookShelfBuyPageState();
@@ -303,7 +303,7 @@ class _BookShelfBuyPageState extends State<BookShelfBuyPage> {
 }
 
 class BookShelfRentPage extends StatefulWidget {
-  const BookShelfRentPage({Key? key}) : super(key: key);
+  const BookShelfRentPage({super.key});
 
   @override
   State<BookShelfRentPage> createState() => _BookShelfRentPageState();
@@ -412,7 +412,7 @@ class _BookShelfRentPageState extends State<BookShelfRentPage> {
 }
 
 class BookEventPage extends StatefulWidget {
-  const BookEventPage({Key? key}) : super(key: key);
+  const BookEventPage({super.key});
 
   @override
   State<BookEventPage> createState() => _BookEventPageState();

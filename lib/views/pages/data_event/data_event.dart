@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class DataEventPage extends StatefulWidget {
-  const DataEventPage({Key? key}) : super(key: key);
+  const DataEventPage({super.key});
 
   @override
   State<DataEventPage> createState() => _DataEventPageState();

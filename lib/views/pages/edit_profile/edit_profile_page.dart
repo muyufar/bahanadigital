@@ -10,8 +10,7 @@ class EditProfilePage extends StatefulWidget {
       required this.email,
       required this.linkImage,
       required this.noPhone,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   State<EditProfilePage> createState() => _EditProfilePageState();

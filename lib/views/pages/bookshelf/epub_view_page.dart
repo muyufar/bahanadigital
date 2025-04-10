@@ -3,8 +3,7 @@ part of '../pages.dart';
 class EpubViewPage extends StatefulWidget {
   final String idBook;
   final String url;
-  const EpubViewPage({required this.idBook, required this.url, Key? key})
-      : super(key: key);
+  const EpubViewPage({required this.idBook, required this.url, super.key});
 
   @override
   EpubViewPageState createState() => EpubViewPageState();

@@ -2,8 +2,7 @@ part of '../pages.dart';
 
 class ProductDetailsContentPage extends StatelessWidget {
   final String idBook;
-  const ProductDetailsContentPage({required this.idBook, Key? key})
-      : super(key: key);
+  const ProductDetailsContentPage({required this.idBook, super.key});
 
   @override
   Widget build(BuildContext context) {

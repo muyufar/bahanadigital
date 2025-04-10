@@ -1,7 +1,7 @@
 part of 'widgets.dart';
 
 class LoadedListProuctHorizontal extends StatelessWidget {
-  const LoadedListProuctHorizontal({Key? key}) : super(key: key);
+  const LoadedListProuctHorizontal({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +69,7 @@ class LoadedListProuctHorizontal extends StatelessWidget {
 }
 
 class LoadedListProductVertikal extends StatelessWidget {
-  const LoadedListProductVertikal({Key? key}) : super(key: key);
+  const LoadedListProductVertikal({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -97,7 +97,7 @@ class LoadedListProductVertikal extends StatelessWidget {
 }
 
 class LoadedBanner extends StatelessWidget {
-  const LoadedBanner({Key? key}) : super(key: key);
+  const LoadedBanner({super.key});
 
   @override
   Widget build(BuildContext context) {

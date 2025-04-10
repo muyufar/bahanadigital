@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class NoConnectionPage extends StatelessWidget {
-  const NoConnectionPage({Key? key}) : super(key: key);
+  const NoConnectionPage({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 part of '../widgets.dart';
 
 class BackgroundProfileWidget extends StatelessWidget {
-  const BackgroundProfileWidget({Key? key}) : super(key: key);
+  const BackgroundProfileWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

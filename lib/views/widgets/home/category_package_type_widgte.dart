@@ -2,8 +2,7 @@ part of '../widgets.dart';
 
 class CategoryPackageTypePage extends StatelessWidget {
   final String namePackage;
-  const CategoryPackageTypePage({required this.namePackage, Key? key})
-      : super(key: key);
+  const CategoryPackageTypePage({required this.namePackage, super.key});
 
   @override
   Widget build(BuildContext context) {

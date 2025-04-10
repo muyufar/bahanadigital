@@ -2,7 +2,7 @@ part of '../pages.dart';
 
 class HomeCategoryPage extends StatefulWidget {
   final String idCategory;
-  const HomeCategoryPage({this.idCategory = '', Key? key}) : super(key: key);
+  const HomeCategoryPage({this.idCategory = '', super.key});
 
   @override
   HomeCategoryPageState createState() => HomeCategoryPageState();

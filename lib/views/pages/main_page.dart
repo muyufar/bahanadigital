@@ -2,7 +2,7 @@ part of 'pages.dart';
 
 class MainPage extends StatefulWidget {
   final int bottomNavBarIndex;
-  const MainPage({this.bottomNavBarIndex = 0, Key? key}) : super(key: key);
+  const MainPage({this.bottomNavBarIndex = 0, super.key});
 
   @override
   MainPageState createState() => MainPageState();

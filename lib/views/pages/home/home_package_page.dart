@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class HomePackagePage extends StatefulWidget {
-  const HomePackagePage({Key? key}) : super(key: key);
+  const HomePackagePage({super.key});
 
   @override
   HomePackagePageState createState() => HomePackagePageState();

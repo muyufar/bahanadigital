@@ -2,8 +2,7 @@ part of '../pages.dart';
 
 class DetailTransactionPage extends StatefulWidget {
   final String idTransaction;
-  const DetailTransactionPage({required this.idTransaction, Key? key})
-      : super(key: key);
+  const DetailTransactionPage({required this.idTransaction, super.key});
 
   @override
   State<DetailTransactionPage> createState() => _DetailTransactionPageState();

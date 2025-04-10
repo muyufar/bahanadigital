@@ -10,8 +10,7 @@ class MorePage extends StatelessWidget {
       this.idCategory = '',
       this.searchTitle = '',
       this.tagMore = false,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   Widget build(BuildContext context) {

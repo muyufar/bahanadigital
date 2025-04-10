@@ -20,3 +20,4 @@ part 'event/materi_event_service.dart';
 part 'banner_service.dart';
 part 'ads_services.dart';
 part 'customer_service_service.dart';
+part 'artikel_services.dart';

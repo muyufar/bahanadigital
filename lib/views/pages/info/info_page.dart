@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class InfoEventPage extends StatelessWidget {
-  const InfoEventPage({Key? key}) : super(key: key);
+  const InfoEventPage({super.key});
 
   @override
   Widget build(BuildContext context) {

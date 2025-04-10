@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class ProfilePage extends StatefulWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+  const ProfilePage({super.key});
 
   @override
   State<ProfilePage> createState() => _ProfilePageState();
@@ -135,20 +135,20 @@ class _ProfilePageState extends State<ProfilePage> {
                                         linkImage: userModel.imageProfile,
                                         noPhone: userModel.noPhone));
                               }),
-                          // const SizedBox(height: 30),
-                          // _buttonList(
-                          //     icon: Icon(
-                          //       Icons.menu_book_rounded,
-                          //       color: whiteColor,
-                          //     ),
-                          //     titel: 'Rak Buku Saya',
-                          //     color: Colors.amber,
-                          //     onTap: () {
-                          //       navigation(context,
-                          //           fromEvent: const GoToMainPage(
-                          //               bottomNavBarIndex: 3),
-                          //           toEvent: GoToBookshelfPage());
-                          //     }),
+                          const SizedBox(height: 30),
+                          _buttonList(
+                              icon: Icon(
+                                Icons.menu_book_rounded,
+                                color: whiteColor,
+                              ),
+                              titel: 'Artikel',
+                              color: Colors.deepPurpleAccent,
+                              onTap: () {
+                                navigation(context,
+                                    fromEvent: const GoToMainPage(
+                                        bottomNavBarIndex: 3),
+                                    toEvent: GoToArtikelPage());
+                              }),
                           const SizedBox(height: 30),
                           _buttonList(
                               icon: Icon(

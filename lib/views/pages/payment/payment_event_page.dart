@@ -4,8 +4,7 @@ class PaymentEventPage extends StatefulWidget {
   final String idTransaksi;
   final String noInvoice;
   const PaymentEventPage(
-      {required this.idTransaksi, required this.noInvoice, Key? key})
-      : super(key: key);
+      {required this.idTransaksi, required this.noInvoice, super.key});
 
   @override
   State<PaymentEventPage> createState() => _PaymentEventPageState();
@@ -163,7 +162,7 @@ class _PaymentEventPageState extends State<PaymentEventPage> {
                                   groupValue: _value,
                                   onChanged: (value) {
                                     setState(() {
-                                      _value = value as int?;
+                                      _value = value;
                                     });
                                   },
                                 ),
@@ -223,7 +222,7 @@ class _PaymentEventPageState extends State<PaymentEventPage> {
                                               noCS = paymentMethodModel
                                                   .dataTransaksi.nomorTelp;
                                               setState(() {
-                                                _value = value as int?;
+                                                _value = value;
                                               });
                                             },
                                           ),

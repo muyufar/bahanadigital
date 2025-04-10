@@ -32,8 +32,7 @@ class CardProductWidgets extends StatelessWidget {
       this.statuSpricePremierRent = true,
       this.productBookDigital = true,
       required this.onTap,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   Widget textRentPriceFormat() {
     return Text(

@@ -18,16 +18,9 @@ class PaymentBrowserService {
         'iduser': idUser,
       });
 
-      log('id_transaksi' +
-          idTransaksi +
-          'no_invoice' +
-          noInvoice +
-          'total' +
-          total +
-          'iduser' +
-          idUser);
+      log('id_transaksi${idTransaksi}no_invoice${noInvoice}total${total}iduser$idUser');
 
-      log('postPaymentToBrowser' + response.body);
+      log('postPaymentToBrowser${response.body}');
 
       var data = json.decode(response.body);
 

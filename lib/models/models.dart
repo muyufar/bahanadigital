@@ -21,3 +21,4 @@ part 'event/list_transaksi.dart';
 part 'event/list_detail_transaksi_event.dart';
 part 'event/list_materi_event_model.dart';
 part 'ads_model.dart';
+part 'artikel_model.dart';

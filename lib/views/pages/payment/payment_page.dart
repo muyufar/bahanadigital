@@ -8,8 +8,7 @@ class PaymentPage extends StatefulWidget {
       {required this.idTransaction,
       required this.noInvoice,
       required this.totalPrice,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   State<PaymentPage> createState() => _PaymentPageState();
@@ -181,7 +180,7 @@ class _PaymentPageState extends State<PaymentPage> {
                                       isSelectPayment = true;
                                       idPayment = '0';
 
-                                      _value = value as int?;
+                                      _value = value;
                                       iconSelectPayment = null;
                                       titleSelectPayment = null;
                                       descriptionSelectPayment = null;
@@ -284,7 +283,7 @@ class _PaymentPageState extends State<PaymentPage> {
                                               noCS = paymentMethodModel
                                                   .dataTransaksi.nomorTelp;
                                               setState(() {
-                                                _value = value as int?;
+                                                _value = value;
                                               });
                                             },
                                           ),

@@ -6,8 +6,7 @@ class PdfSertifikatPage extends StatelessWidget {
   const PdfSertifikatPage(
       {required this.linkDownloadSertifikat,
       required this.linkViewSertifikat,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   Widget build(BuildContext context) {

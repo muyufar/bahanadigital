@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class SignUp extends StatefulWidget {
-  const SignUp({Key? key}) : super(key: key);
+  const SignUp({super.key});
 
   @override
   SignUpState createState() => SignUpState();

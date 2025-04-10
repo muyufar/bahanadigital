@@ -14,8 +14,7 @@ class CardProductCart extends StatefulWidget {
       required this.totalDiscount,
       required this.priceFormat,
       required this.discountPriceFormat,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   State<CardProductCart> createState() => _CardProductCartState();

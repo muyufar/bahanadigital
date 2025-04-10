@@ -12,8 +12,7 @@ class ListCardProductWidget extends StatelessWidget {
       required this.listEbookModel,
       required this.eBookDigital,
       this.flashSale = false,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   Widget build(BuildContext context) {

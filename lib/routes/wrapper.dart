@@ -1,7 +1,7 @@
 part of 'routes.dart';
 
 class Wrapper extends StatelessWidget {
-  const Wrapper({Key? key}) : super(key: key);
+  const Wrapper({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -151,7 +151,11 @@ class Wrapper extends StatelessWidget {
                                                                                                                           ? (MateriPdfPage(pageSate.urlPdf))
                                                                                                                           : (pageSate is OnPdfSertifikatPage)
                                                                                                                               ? (PdfSertifikatPage(linkDownloadSertifikat: pageSate.linkDownloadSertifikat, linkViewSertifikat: pageSate.linkViewSertifikat))
-                                                                                                                              : MainPage(bottomNavBarIndex: (pageSate as OnMainPage).bottomNavBarIndex)
+                                                                                                                              : (pageSate is onArtikelPage)
+                                                                                                                                  ? (const ArtikelPage())
+                                                                                                                                  // : (pageSate is OnDetailArtikelPage)
+                                                                                                                                  // ? (ArtikelDetailPage(artikel: pageSate.idArtikel))
+                                                                                                                                  : MainPage(bottomNavBarIndex: (pageSate as OnMainPage).bottomNavBarIndex)
               : const NoConnectionPage();
         },
       );

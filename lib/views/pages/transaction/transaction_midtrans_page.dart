@@ -4,8 +4,7 @@ class TransactionMidtransPage extends StatefulWidget {
   final String url;
   final bool isEvent;
   const TransactionMidtransPage(
-      {required this.url, this.isEvent = false, Key? key})
-      : super(key: key);
+      {required this.url, this.isEvent = false, super.key});
 
   @override
   State<TransactionMidtransPage> createState() =>

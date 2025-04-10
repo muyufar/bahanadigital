@@ -40,8 +40,7 @@ class ProductDetailsBottomSheetPage extends StatefulWidget {
       required this.longRent,
       required this.statusDiscount,
       this.buyNow = false,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   State<ProductDetailsBottomSheetPage> createState() =>

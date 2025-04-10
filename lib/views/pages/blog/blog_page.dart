@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class BlogPage extends StatefulWidget {
-  const BlogPage({Key? key}) : super(key: key);
+  const BlogPage({super.key});
 
   @override
   State<BlogPage> createState() => _BlogPageState();
@@ -89,7 +89,7 @@ class _BlogPageState extends State<BlogPage> {
               ? const Center(
                   child: CircularProgressIndicator(),
                 )
-              : Stack(),
+              : const Stack(),
 
           // Header App Bar
           const HeaderSearchChatandCartWidgets(),

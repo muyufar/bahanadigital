@@ -16,8 +16,7 @@ class CardBookShelfWidget extends StatelessWidget {
       required this.category,
       required this.urlPdf,
       required this.sisaHari,
-      Key? key})
-      : super(key: key);
+      super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -61,7 +60,7 @@ class CardBookShelfWidget extends StatelessWidget {
                       maxLines: 1,
                       overflow: TextOverflow.clip),
                 ),
-                SizedBox(height: 4),
+                const SizedBox(height: 4),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8),
                   child: Text(sisaHari,

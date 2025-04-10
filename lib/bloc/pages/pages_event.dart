@@ -41,7 +41,10 @@ class GoToSignUpPage extends PagesEvent {
   @override
   List<Object> get props => [];
 }
-
+class GoToArtikelPage extends PagesEvent {
+  @override
+  List<Object> get props => [];
+}
 class GoToPDFViewPage extends PagesEvent {
   final String urlPdf;
   const GoToPDFViewPage({required this.urlPdf});
@@ -123,6 +126,14 @@ class GoToProductDetailsPage extends PagesEvent {
   @override
   List<Object> get props => [];
 }
+
+class GoToArtikelDetailPage extends PagesEvent {
+  final String idArtikel;
+  const GoToArtikelDetailPage({required this.idArtikel});
+  @override
+  List<Object> get props => [idArtikel];
+}
+
 
 class GoToTransactionMidtransPage extends PagesEvent {
   final String url;

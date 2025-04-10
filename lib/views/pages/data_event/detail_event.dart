@@ -4,7 +4,7 @@ bool _isLoading = false;
 
 class DetailEventPage extends StatefulWidget {
   final String idPromo;
-  const DetailEventPage(this.idPromo, {Key? key}) : super(key: key);
+  const DetailEventPage(this.idPromo, {super.key});
 
   @override
   State<DetailEventPage> createState() => _DetailEventPageState();

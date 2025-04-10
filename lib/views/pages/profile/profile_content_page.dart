@@ -1,7 +1,7 @@
 part of '../pages.dart';
 
 class ProfileContentPage extends StatelessWidget {
-  const ProfileContentPage({Key? key}) : super(key: key);
+  const ProfileContentPage({super.key});
 
   @override
   Widget build(BuildContext context) {
