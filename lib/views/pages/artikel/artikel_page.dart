@@ -205,10 +205,10 @@ class ArtikelPageState extends State<ArtikelPage> {
                                       context,
                                       fromEvent: GoToArtikelPage(),
                                       toEvent: GoToPDFViewPage(
-                                        urlPdf: artikel.pdfUrl
-                                                .startsWith('http')
-                                            ? artikel.pdfUrl
-                                            : 'http://103.137.254.78/andibook/pdfartikel/${artikel.pdfUrl}',
+                                        urlPdf:
+                                            artikel.pdfUrl.startsWith('http')
+                                                ? artikel.pdfUrl
+                                                : artikel.pdfUrl,
                                       ),
                                     );
                                   }
@@ -232,10 +232,10 @@ class ArtikelPageState extends State<ArtikelPage> {
                                       ClipRRect(
                                         borderRadius: BorderRadius.circular(8),
                                         child: CachedNetworkImage(
-                                          imageUrl: artikel.cover
-                                                  .startsWith('http')
-                                              ? artikel.cover
-                                              : 'http://103.137.254.78/andibook/imageartikel/${artikel.cover}',
+                                          imageUrl:
+                                              artikel.cover.startsWith('http')
+                                                  ? artikel.cover
+                                                  : artikel.cover,
                                           width: 80,
                                           height: 120,
                                           fit: BoxFit.cover,

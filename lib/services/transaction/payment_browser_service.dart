@@ -9,7 +9,7 @@ class PaymentBrowserService {
       http.Client? client}) async {
     client ??= http.Client();
 
-    String url = 'https://andipublisher.com/payment_ba_manual/index.php';
+    String url = 'https://bahanadigital.com/payment_ba_manual/index.php';
     try {
       http.Response response = await client.post(Uri.parse(url), body: {
         'id_transaksi': idTransaksi,
